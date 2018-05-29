@@ -9,7 +9,7 @@ try:
 		estimacion = int(input("\nIngresa una estimación: "))
 
 		if estimacion == numero_azar:
-			print("Has ganado el juego en {0} intento".format(i + 1))
+			print("Has ganado el juego en {0} intentos".format(i + 1))
 			exit()
 		elif estimacion > numero_azar:
 			print("El numero estimado es muy grande!")
