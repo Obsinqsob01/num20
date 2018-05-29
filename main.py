@@ -1,4 +1,4 @@
-from os import randint
+from random import randint
 
 numero_azar = randint(0,20)
 
